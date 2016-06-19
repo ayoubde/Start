@@ -14,6 +14,7 @@ namespace StartApplication
             if (true)
             {
                 Console.WriteLine("IT'S OK");
+                var ayoub = new Object();
 
             }
         }
