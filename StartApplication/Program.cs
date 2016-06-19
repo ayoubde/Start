@@ -11,6 +11,10 @@ namespace StartApplication
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            if (true)
+            {
+                Console.WriteLine("IT'S OK");
+            }
         }
     }
 }
