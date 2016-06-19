@@ -15,7 +15,7 @@ namespace StartApplication
             {
                 Console.WriteLine("IT'S OK");
                 var ayoub = new Object();
-
+                Console.WriteLine();
             }
         }
     }
