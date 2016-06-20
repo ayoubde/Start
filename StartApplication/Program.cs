@@ -10,13 +10,17 @@ namespace StartApplication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            if (true)
+            int[] ayoub = new int[] { 1,2,3,4,5,6};
+            for (int i = 0,j=ayoub.Length-1; i < j; i++,j--)
             {
-                Console.WriteLine("IT'S OK");
-                var ayoub = new Object();
-                Console.WriteLine("Hello World");
+                int c=ayoub[i];
+                ayoub[i]=ayoub[j];
+                ayoub[j] = c;
+            }
 
+            for (int i = 0; i < ayoub.Length; i++)
+            {
+                Console.WriteLine(ayoub[i]);
             }
         }
     }
