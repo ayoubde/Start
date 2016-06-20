@@ -17,7 +17,7 @@ namespace StartApplication
                 ayoub[i]=ayoub[j];
                 ayoub[j] = c;
             }
-
+             
             for (int i = 0; i < ayoub.Length; i++)
             {
                 Console.WriteLine(ayoub[i]);
